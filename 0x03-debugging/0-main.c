@@ -10,12 +10,12 @@
  */
 int main(void)
 {
-    int i; // Declare an integer variable 'i'
+    int i; /* Declare an integer variable 'i' */
 
-    i = 0; // Initialize 'i' with the value 0
+    i = 0; /* Initialize 'i' with the value 0 */
 
-    // Call the 'positive_or_negative' function to test it with 'i'
+    /* Call the 'positive_or_negative' function to test it with 'i' */
     positive_or_negative(i);
 
-    return (0); // Return 0 to indicate successful execution
+    return (0); /* Return 0 to indicate successful execution */
 }
